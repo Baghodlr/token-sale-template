@@ -1,0 +1,49 @@
+/* brand colors
+blue: 40aeff
+darkblue: 037bd4
+red: f06549
+yellow: faef45
+*/
+
+.btn-outline-primary {
+  color: #40aeff;
+  cursor: pointer;
+  border-color: #40aeff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #40aeff;
+  border-color: #40aeff;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+a:not(.btn) {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.underline { text-decoration: underline; }
+
+.section{
+  background-color: white;
+  max-width: 46em;
+  margin: 0 auto;
+}
+
+.page-buffer { padding: 15px; }
+.jumbotron{ text-align: center; }
+.jumbotron-desc { font-size: 12px; }
+@media (min-width: 400px) {
+  .jumbotron-desc { font-size: inherit; }
+}
+
+.tac { text-align: center }

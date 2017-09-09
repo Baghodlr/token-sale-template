@@ -1,0 +1,19 @@
+/* brand colors
+blue: 40aeff
+darkblue: 037bd4
+red: f06549
+yellow: faef45
+*/
+.token {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background-color:#ddd;
+}
+.token.bid {
+  background-color: #40aeff;
+}
+#bid-gui {
+  display: flex;
+  flex-wrap: wrap;
+}
